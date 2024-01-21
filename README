@@ -1,0 +1,27 @@
+# Stack Implementations Repository
+
+This repository contains two C++ projects related to stack data structures - one implementing an array-based stack and the other implementing a linked stack.
+
+## Array Stack
+
+### File: `ArrayStack.cpp`
+
+This project implements a basic stack using an array. A stack is a fundamental data structure that follows the Last In, First Out (LIFO) principle. In simpler terms, the last element added to the stack is the first one to be removed. The array-based stack provides functionalities to push elements onto the stack, pop elements off the stack, peek at the top element, and print the current state of the stack.
+
+### Usage
+
+Compile the program using a C++ compiler, such as g++, and run the executable. The program will prompt the user to perform various actions such as viewing the stack, inserting elements, removing the top element, and exiting the stack.
+
+## Linked Stack
+
+### File: `LinkedStack.cpp`
+
+This project implements a stack using a linked list. Similar to the array-based stack, a linked stack adheres to the LIFO principle. The implementation includes functions for initializing the stack, pushing elements onto the stack, popping elements off the stack, and printing the current state of the stack.
+
+### Usage
+
+Compile the program using a C++ compiler, such as g++, and run the executable. Similar to the array-based stack, the program will prompt the user to perform actions like viewing the stack, inserting elements, removing the top element, and exiting the stack.
+
+## What is a Stack?
+
+A stack is a dynamic data structure that follows the Last In, First Out (LIFO) principle. Imagine a stack of plates in a cafeteria - the last plate added is the first one to be removed. In computing, a stack is widely used for managing function calls, storing temporary data, and handling expressions. Elements can only be added or removed from the top of the stack.
